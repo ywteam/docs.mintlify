@@ -2,11 +2,12 @@
   "name": "Yellow Team Docs",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://docs.yellowteam.cloud"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#ffd400",
     "light": "#4ADE80",
     "dark": "#166534"
   },
