@@ -14,63 +14,79 @@
   "topbarLinks": [
     {
       "name": "Contact Us",
-      "url": "mailto:support@mintlify.com"
+      "url": "mailto:support@yellowteam.cloud"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
     "url": "https://1tc7vihvbit.typeform.com/to/pZJ31XZB"
   },
+  "primaryTab": {
+    "name": "Home"
+  },
+  "tabs": [
+    {
+      "name": "API References",
+      "url": "api-references"
+    },
+    {
+      "name": "Content",
+      "url": "content"
+    },
+    {
+      "name": "Blog",
+      "url": "https://your-website.com/blog"
+    }
+  ],
+  "topAnchor": {
+    "name": "Home",
+    "icon": "building"
+  },
   "anchors": [
     {
-        "name": "API Reference V1",
-        "url": "v1/api-reference",
-        "version": "v1"
+      "name": "API Reference V1",
+      "url": "v1/api-reference",
+      "version": "v1"
     },
     {
-        "name": "API Reference V2",
-        "url": "v2/api-reference",
-        "version": "v2"
-    },
-    {
-        "name": "Anchor Without a Version",
-        "url": "example-anchor"
-    },
-    {
-      "name": "API Components",
-      "icon": "rectangle-terminal",
-      "color": "#f59f0b",
-      "url": "api-components"
-    },
-    {
-      "name": "Community",
-      "icon": "comments",
-      "color": "#2564eb",
-      "url": "https://discord.gg/MPNgtSZkgK"
+      "name": "API Reference V2",
+      "url": "v2/api-reference",
+      "version": "v2"
     }
   ],
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["introduction", "quickstart"]
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
     },
     {
       "group": "API Components",
-      "pages": ["api-playground/overview", "api-playground/configuration"]
+      "pages": [
+        "api-playground/overview",
+        "api-playground/configuration"
+      ]
     },
     {
       "group": "Settings",
-      "pages": ["settings/global", "settings/page"]
+      "pages": [
+        "settings/global",
+        "settings/page"
+      ]
     },
     {
       "group": "Analytics",
-      "pages": ["analytics/posthog"]
+      "pages": [
+        "analytics/posthog"
+      ]
     }
   ],
   "footerSocials": {
-    "github": "https://github.com/mintlify",
-    "discord": "https://discord.gg/MPNgtSZkgK",
-    "x": "https://x.com/mintlify"
+    "github": "https://github.com/ywteam",
+    "x": "https://x.com/ywteam",
+    "linkedin": "https://linkedin.com/company/ywteam"
   },
   "integrations": {
     "intercom": "abcdefz",
